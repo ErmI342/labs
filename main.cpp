@@ -122,7 +122,7 @@ pair<time_t, time_t> findPeakRequestWindow(const vector<LogEntry>& entries, int 
 }
 
 int main() {
-    ifstream logFile("C:/Users/vahti/CLionProjects/untitled8/access_log_Jul95.txt");
+    ifstream logFile("C:/Users/vahti/CLionProjects/untitled10/access_log_Jul95.txt");
     if (!logFile) {
         cerr << "Error: Unable to open file access_log_Jul95.txt" << endl;
         return 1;
